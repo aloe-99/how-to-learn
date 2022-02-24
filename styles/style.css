@@ -97,6 +97,7 @@
 .two-columns__brief-link {
   text-decoration-line: none;
   color: #2f80ed;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
