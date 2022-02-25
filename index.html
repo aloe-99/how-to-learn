@@ -12,21 +12,17 @@
     <header class="header">
       <div class="logo logo_place_header"></div> 
       <h1 class="header__title">Научиться учиться</h1>
-      <div class="header__subtitle">
-        <p>
-          Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-          <a class="header__subtitle-link" href="">Узнать &#8594;</a>
-        </p>
-      </div>
-      <div class="header__main-illustration">
-        <img src="images/header-image.png" alt=" Картина &quot;Опять двойка&quot;">
-      </div>
+      <p class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <a class="header__link" href="">Узнать &#8594;</a>
+      </p>
+      <img class="header__main-illustration" src="images/header-image.png" alt=" Картина &quot;Опять двойка&quot;">
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <h3 class="two-columns__brief"><a class="two-columns__brief-link" href="">Главные проблемы в обучении</a></h3>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
               Ни в школе ни в институте нас не учат тому, как правильно изучать материал. 
@@ -89,12 +85,12 @@
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="">Подробнее &#8594;</a>
         <img class="feynman__photo" src="images/feynman.png" alt="Ричард Фейнман">
       </section>
 
-      <section class="kaufman kaufman_theme_dark">
+      <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <div class="table table_theme_dark">
@@ -144,25 +140,29 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <div class="logo_place_footer"></div>
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
           <p class="footer__author"> &copy; 2022. Тимофей Шалонский</p>
         </div>
-        <div class="footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="column-links">
-            <a class="column-link" href="">Главная</a>
-            <a class="column-link" href="">Концепция</a>
-            <a class="column-link" href="">Наставники</a>
-          </div>
+          <nav class="footer__column-links">
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="">Главная</a></li>
+              <li><a class="footer__column-link" href="">Концепция</a></li>
+              <li><a class="footer__column-link" href="">Наставники</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <div class="column-links">
-            <a class="column-link" href=""><img class="column-link__logo" src="images/facebook_color_white.svg" alt="логотип Facebook">Facebook</a>
-            <a class="column-link" href=""><img class="column-link__logo" src="images/vk_color_white.svg" alt="логотип Вконтакте">ВКонтакте</a>
-            <a class="column-link" href=""><img class="column-link__logo" src="images/instagram_color_white.svg" alt="логотип Insgram">Instagram</a>
-          </div>
+          <nav class="footer__column-links">
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href=""><img class="footer__social-icon" src="images/facebook_color_white.svg" alt="логотип Facebook">Facebook</a></li>
+              <li><a class="footer__column-link" href=""><img class="footer__social-icon" src="images/vk_color_white.svg" alt="логотип Вконтакте">ВКонтакте</a></li>
+              <li><a class="footer__column-link" href=""><img class="footer__social-icon" src="images/instagram_color_white.svg" alt="логотип Insgram">Instagram</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>
