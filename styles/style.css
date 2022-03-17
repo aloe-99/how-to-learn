@@ -1,3 +1,13 @@
+@keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -12,6 +22,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 .logo {
@@ -79,9 +90,8 @@
   right: 0;
   top: 64px;
   z-index: 0;
+  transition: transform 20s linear;
 }
-
-
 
 .description {
   display: flex;
@@ -126,6 +136,44 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-weight: bold;
+}
+
+
+
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 100px auto 0;
+  width: 80%;
+  border: 2px solid red;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.cards__image {
+  border: 2px solid red;
+}
+
+.cards__title {
+  border: 2px solid red;
+}
+
+.cards__description {
+  border: 2px solid red;
 }
 
 
