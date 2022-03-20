@@ -1,0 +1,7 @@
+.link-dissolution {
+  transition: opacity 0.6s linear;
+}
+
+.link-dissolution:hover {
+  opacity: 0.3;
+}

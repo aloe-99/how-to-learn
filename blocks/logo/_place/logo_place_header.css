@@ -1,0 +1,7 @@
+.logo_place_header {
+  background-image: url('../../../images/logo/logo_place_header.svg');
+  position: absolute;
+  height: 32px;
+  left: 64px;
+  top: 30px;
+}
